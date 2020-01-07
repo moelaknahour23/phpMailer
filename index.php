@@ -10,11 +10,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
-  </head>
-  <body>
-<div class="container">
+<body>
+ <div class="container">
   <h2>Stacked form</h2>
-  <form method="POST" action="http://192.168.64.2/test/contact.php">
+   <form method="POST" action="(Thelocalhost path or the domain)/contact.php">
     <div class="form-group">
       <label for="name">Name:</label>
       <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" >
@@ -33,8 +32,7 @@
     </div>
  
     <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
-
-  </body>
+   </form>
+ </div>
+</body>
 </html>
