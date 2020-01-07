@@ -15,10 +15,10 @@ require_once __DIR__ . '/phpMailer/SMTP.php';
   $mail->SMTPSecure='tls';
 
 
-  $mail->Username='moe.lak20@gmail.com';
-  $mail->Password='Selena200$';
+  $mail->Username='Your Gmail address';
+  $mail->Password='Your Gmail password';
   $email = $_POST['email'];
-  $mail->addAddress('moe.lak20@gmail.com');
+  $mail->addAddress('Your Gmail address');
   $mail->setFrom('donotreply@something.com', $_POST['name']);
   $mail->addReplyTo($_POST['email'], $_POST['name']);
 
